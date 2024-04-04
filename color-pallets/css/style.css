@@ -1,4 +1,4 @@
-#head {
+#head1 {
     font-family: cursive;
     text-align: center;
 }
@@ -7,4 +7,31 @@
     color: white;
     font-family: cursive;
     text-align: center;
+    padding: 24px;
+}
+#d2 {
+    background-color: lightseagreen;
+    color: blueviolet;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#d3 {
+    background-color: orangered;
+    color: blue;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#head2 {
+    font-family: fantasy;
+    text-align: center;
+}
+
+#d4 {
+    background-color: #e7d8ff;
+    color: red;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
 }
