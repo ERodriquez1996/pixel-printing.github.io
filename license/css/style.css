@@ -6,6 +6,8 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 
 #license {
     border: 2px solid black;
@@ -78,6 +80,7 @@ h4 {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
+    font-family: "ms madi";
 }
 
 #data-left, #data-right {
