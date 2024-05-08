@@ -1,9 +1,20 @@
-* {
+@media screen and (min-width: 480px){
+}
+
+*{
     box-sizing: border-box;
 }
+html { 
+     
+     
+    background-image: url("../images/Untitled-3-01.jpg");
+    background-size: cover;
+}
+
 body {
     margin: 0px;
     font-family: sans-serif;
+  
 }
 
 
@@ -41,7 +52,7 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
 }
 #layout {
@@ -93,5 +104,49 @@ body {
     border-radius: 5%;
 }
 #layout {
+    
     text-align: center;
+    display: inline;
+}
+
+/*
+    basic page layout setup
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/*
+    Footer setup and configuration
+*/
+#footer {
+    background: linear-gradient(to bottom, lightblue, lightgreen);
+    color: black;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+    Layout setup and configuration
+*/
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
 }
