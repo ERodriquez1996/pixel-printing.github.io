@@ -1,7 +1,12 @@
+#background {
+    background-color: black;
+}
+
 #body {
     width: 50%;
     margin: 0px auto;
     text-align: center;
+    background-color: blueviolet;
 }
 #teams {
     
@@ -22,4 +27,42 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+}
+
+#hero {
+    background-image: url("../images/iStock-1502846052.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20vh;
+    font-weight: bolder;
+}
+
+#hero h2 {
+    font-size: 11vw;
+    margin-bottom: 5vh;
+}
+
+#hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+}
+
+#hero a {
+    font-size: vw;
+    display: inline-block;
+    background-color: goldenrod;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+    border-radius: 5%;
 }
