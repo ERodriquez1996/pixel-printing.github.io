@@ -22,7 +22,7 @@
     background-color: grey;
     font-size: 30px;
 }
-.card1 {
+.card2 {
     .cta-button {
         background-color: white;
         color: green;
@@ -84,7 +84,7 @@
 .body-text {
     text-align: center;
     color: whitesmoke;
-    padding-top: 20vh;
+
     font-weight: bolder;
     font-size: 25px;
 }
@@ -126,4 +126,19 @@
     text-decoration: none;
     color: black;
     padding: 24px;
+}
+.cta-button:hover {
+    background-color: purple;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+.card2 {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: grey;
+    font-size: 30px;
 }
