@@ -1,4 +1,6 @@
-
+@media screen and (min-width: 480px){
+}
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Secular+One&display=swap');
 
 #background {
     background-color: black;
@@ -20,6 +22,7 @@
     text-align: center;
     background-color: grey;
     font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .card2 {
     .cta-button {
@@ -86,6 +89,7 @@
 
     font-weight: bolder;
     font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #navbar {
     background: linear-gradient(
