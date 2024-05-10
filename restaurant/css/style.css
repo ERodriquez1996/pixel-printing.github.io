@@ -183,6 +183,7 @@ body {
     padding: 24px;
     border-radius: 12px;
     text-align: center;
+    height: 550px;
 }
 .card a {
     text-decoration: none;
